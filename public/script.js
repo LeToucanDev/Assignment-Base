@@ -16,12 +16,14 @@ function displayMatches(){
     const html = matchArr.map(place => { //.map creates an array with equal size but replaces the values with this instead
         return `
 
-            <li class = "box has-background-danger-light m-2">
-                <span class="name">${place.name}</span>
-                <span class="name">${place.city}</span>
-                <span class="name">${place.category}</span>
+         
+            <li class = "box has-background-danger-light mt-4">
+                <span class="name">${place.name}</span> <br>
+                <span class="category">${place.category}</span> <br>
+                <span class="city">${place.city}</span> <br>
+                <span class = "address">${place.address_line_1}</span>
             </li>
-
+           
         `;
 
     }).join(''); //This changes html from an array to a big string
