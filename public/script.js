@@ -20,8 +20,10 @@ function displayMatches(){
             <li class = "box has-background-danger-light mt-4">
                 <span class="name">${place.name}</span> <br>
                 <span class="category">${place.category}</span> <br>
-                <span class="city">${place.city}</span> <br>
-                <span class = "address">${place.address_line_1}</span>
+                <address>
+                    ${place.city} <br>
+                    ${place.address_line_1}
+                </address>
             </li>
            
         `;

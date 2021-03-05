@@ -1,5 +1,5 @@
 body{
-    background-color:rgb(101, 175, 236);
+    background-color: gray;
 }
 
 h1{
@@ -16,6 +16,3 @@ h1{
 }
 
 
-.city, .address {
-    font-style: italic;
-}
