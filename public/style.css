@@ -1,0 +1,33 @@
+.container{ 
+     margin: 0 auto;
+     max-width: 960px;
+     min-height: 1000px;
+    
+ }
+ .suggestions{
+     height: inherit;     
+ }
+
+input{
+    display: flex;
+    width: 30%; 
+}
+
+body, .suggestions{
+    background-image: linear-gradient(rgb(61, 54, 54), pink);
+}
+
+h1{
+    font-family: "Allan";
+}
+
+.box{
+    background-image: linear-gradient(rgb(5, 168, 86), rgb(75, 209, 131));
+}
+
+.name{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
