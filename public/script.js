@@ -16,7 +16,7 @@ function displayMatches(event){
     const matchArr = findMatches(query, foodPlace); //this.value is the data being input in the form
     const html = matchArr.map(place => { //.map creates an array with equal size but replaces the values with this instead
         return `         
-            <li class = "box has-background-danger-light mt-4">
+            <li class = "box">
                 <span class="name">${place.name}</span> <br>
                 <span class="category">${place.category}</span> <br>
                 <address>
