@@ -1,8 +1,16 @@
-/* .container{ */
-    /* margin: auto; */
-    /* max-width: 960px; */
+.container{ 
+     margin: 0 auto;
+     max-width: 960px;
+     height:1000px;
+ }
+ .suggestions{
+     height: inherit;
+     
+ }
 
-/* } */
+ .sug-item{
+    background-image: linear-gradient(rgba(66, 63, 63, 0.664), pink);
+ }
 
 input{
     display: flex;
