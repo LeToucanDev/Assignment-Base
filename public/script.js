@@ -15,13 +15,15 @@ function displayMatches(event){
     query = event.target.value;
     const matchArr = findMatches(query, foodPlace); //this.value is the data being input in the form
     const html = matchArr.map(place => { //.map creates an array with equal size but replaces the values with this instead
-        return `
-
-            <li class = "sug-item box has-background-danger-light m-2">
-                <h1 class="name">${place.name}</h1>
-                <span class="name">${place.city} </br></span>
-                <span class="name">${place.category}</span>
-            </li>
+        return `         
+            <li class = "box has-background-danger-light mt-4">
+                <span class="name">${place.name}</span> <br>
+                <span class="category">${place.category}</span> <br>
+                <address>
+                    ${place.city} <br>
+                    ${place.address_line_1}
+                </address>
+            </li>           
         `;
 
     }).join(''); //This changes html from an array to a big string
