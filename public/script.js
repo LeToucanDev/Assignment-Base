@@ -32,3 +32,4 @@ const searchInput = document.querySelector('.search'); //This chooses an element
 const suggestions = document.querySelector('.suggestions'); //Chooses element with class suggestions
 
 searchInput.addEventListener('keyup', displayMatches);
+window.onload = windowActions;
