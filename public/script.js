@@ -25,7 +25,6 @@ function displayMatches(){
     }).join(''); //This changes html from an array to a big string
 
     suggestions.innerHTML = html; //takes the html strong from html and creates html in this element
-
 }
 
 const searchInput = document.querySelector('.search'); //This chooses an element with the class search
