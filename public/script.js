@@ -42,5 +42,4 @@ function displayMatches(event){
     searchInput.addEventListener('keyup',(evt)=> displayMatches(evt));
 }
 
-searchInput.addEventListener('keyup', displayMatches);
 window.onload = windowActions;
